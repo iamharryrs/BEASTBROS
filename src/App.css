@@ -1,0 +1,12 @@
+/* Additional utility animations and component polish */
+.app-container {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Red glow pulse on play buttons */
+.play-pulse-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255, 32, 32, 0.7);
+}
